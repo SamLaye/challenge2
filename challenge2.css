@@ -1,0 +1,123 @@
+#centreur{
+	min-height: 90vh;
+}
+#block{
+	min-height: 60vh;
+	width: 50%;
+}
+#score-container{
+	background-color: #0d6efd;
+}
+#score{
+	margin: 0 70px;
+	border-radius: 50%;
+	background-color: #4141c7;
+	box-shadow: inset 1px 1px 40px #2a2aa1,
+				1px 1px 1px 4px #2a2aa1;
+}
+.listElm1{
+	background-color: #f8d7da;
+}
+.listElm2{
+	background-color: #fff3cd;
+}
+.listElm3{
+	background-color: #d1e7dd;
+}
+.listElm4{
+	background-color: #cfe2ff;
+}
+.listElm1 .myText{
+	color: #df3545;
+}
+.listElm2 .myText{
+	color: #ffc13a;
+}
+.listElm3 .myText{
+	color: #498f61;
+}
+.listElm4 .myText{
+	color: #4747e2;
+}
+
+@media screen and (max-width: 1195px){
+	#block{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 992px){
+	#block{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 767px){
+	#block{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 575px){
+	#score-container, #summary{
+		width: 80%;
+	}
+	#score{
+	margin: 10px 130px;
+}
+}
+@media screen and (max-width: 523px){
+	#score h1{
+		font-size: 18px;
+	}
+	#score span{
+		font-size: 14px;
+	}
+	.myText{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 505px){
+	#score{
+	margin: 10px 120px;
+}
+}
+@media screen and (max-width: 475px){
+	#score{
+	margin: 10px 110px;
+}
+}
+@media screen and (max-width: 445px){
+	#score-container, #summary{
+		width: 90%;
+	}
+	#score{
+	margin: 10px 100px;
+}
+}
+@media screen and (max-width: 365px){
+	#score{
+	margin: 10px 90px;
+}
+}
+@media screen and (max-width: 330px){
+	#score{
+	margin: 10px 70px;
+}
+}
+@media screen and (max-width: 290px){
+	#score h1{
+		font-size: 16px;
+	}
+	#score span{
+		font-size: 12px;
+	}
+	.myText{
+		font-size: 12px;
+	}
+	#score{
+	margin: 10px 45px;
+}
+}
+@media screen and (max-width: 240px){
+	#score{
+	margin: 10px 20px;
+	}
+}
