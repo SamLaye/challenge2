@@ -15,6 +15,12 @@
 	box-shadow: inset 1px 1px 40px #2a2aa1,
 				1px 1px 1px 4px #2a2aa1;
 }
+li{
+	list-style-type: none;
+}
+ul{
+	padding-left: 0rem;
+}
 .listElm1{
 	background-color: #f8d7da;
 }
